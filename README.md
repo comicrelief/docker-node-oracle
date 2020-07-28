@@ -1,8 +1,8 @@
 # Docker Oracle
 
-[![Docker Build](https://img.shields.io/docker/build/comicrelief/node-oracle.svg)](https://hub.docker.com/r/comicrelief/node-oracle)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/comicrelief/node-oracle)
 [![License](https://img.shields.io/github/license/comicrelief/docker-node-oracle.svg)](https://hub.docker.com/r/comicrelief/node-oracle)
-[![Release](https://img.shields.io/github/release/comicrelief/docker-node-oracle.svg)](https://hub.docker.com/r/comicrelief/node-oracle)
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/comicrelief/node-oracle)
 
 Docker image to be used for building a container ready with Oracle instant client binaries and all necessary environment variables needed to use the primary Node.js Oracle Database driver libraries:
 
