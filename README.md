@@ -15,7 +15,7 @@ Docker image to be used for building a container ready with Oracle instant clien
 Within your Dockerfile:
 
 ```
-FROM comicrelief/docker-node-oracle:{VERSION}
+FROM comicrelief/node-oracle:{VERSION}
 ```
 
 
@@ -31,4 +31,4 @@ FROM node:{VERSION}
 
 ### :latest
 
-Using "latest" (FROM comicrelief/docker-node-oracle) as the version will use "FROM NODE:10" as it's base image.  It is recommended that you use a specific version (X.X.X) but if you only want the latest version of Node 10.X.X then latest will work.
+Using "latest" (FROM comicrelief/node-oracle) as the version will use "FROM NODE:10" as it's base image.  It is recommended that you use a specific version (X.X.X) but if you only want the latest version of Node 10.X.X then latest will work.
